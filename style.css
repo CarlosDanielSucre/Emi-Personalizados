@@ -1,0 +1,73 @@
+body{
+    margin: 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, rgb(10, 1, 1), rgb(8, 8, 8), rgb(10, 10, 9), rgb(11, 12, 11), rgb(9, 9, 10), rgb(8, 8, 8));
+}
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    background-color: #b1bbc5; /* Cambia el color de fondo del navbar */
+    padding: 0px 0px; /* Ajusta el espacio dentro del navbar */
+    width: 100%;
+    height: 50px;
+    position: fixed;
+  }
+.space-void{
+    background-color: aqua;
+    width: 400px;
+    height: 100%;
+}
+  
+  /* Logo */
+  .navbar-brand {
+    color: #EC449B; /* Color del texto del logo */
+    font-size: 1rem; /* Tamaño del texto del logo */
+    font-weight: bold; /* Negrita para el logo */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    text-decoration: none;
+
+  }
+  .nav-item{
+    font-size: 1rem; /* Tamaño del texto del logo */
+    font-weight: bold; /* Negrita para el logo */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    
+    padding-left: 15px;      
+  }
+  .nav-link{
+    text-decoration: none;
+    color: #EC449B; /* Color del texto del logo */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+
+  .navbar-brand:hover {
+    color: #f39c12; /* Color al pasar el cursor */
+  }
+  .nav-link:hover {
+    color: #f39c12; /* Color al pasar el cursor */
+  }
+.middle-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+  .definition-paragraph{
+    width: 500px;
+   
+    background-color: #FCE4EC;
+    padding: 25px;
+    text-align: center;
+    color: #000;
+    border-radius: 0px 50px ;
+  }
+  #background-image{
+    width: 555px;
+    height: auto;
+    background-color: #FCE4EC;
+    border-radius: 50px 0px ;
+  }
+
