@@ -1,72 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta namec="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emi personalizados</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emi Personalizados - Personalização de Camisas e Materiais</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="theme-color" content="#09f">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <img src="/img/logo.png" alt="here va the logo" style="width: 275px; height: auto;">
-            <div class="space-void"></div>
-          <a class="navbar-brand" href="#">Contato</a>          
-              <div class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </div>
-              <div class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </div>
-              <div class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </div>
-          
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="container">
+            <h1>Emi Personalizados</h1>
+            <p>Personalizamos camisas, camisetas e outros materiais com qualidade e criatividade.</p>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#sobre">Sobre nós</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
-      </nav>
-      <div class="middle-image">
-        <div class="definition-paragraph">
-            <br><br><br>
-            <h2><br><br><br><br><br><br><br>Seu estilo, sua marca!<br><br></h2>
-            <p style="font-size: 18px;">Na <strong>Emi Personalizados</strong>, transformamos canetas, camisas e outras peças de roupa em itens únicos que refletem 
-                sua personalidade. Oferecemos personalização com designs exclusivos, perfeitos para destacar sua marca, 
-                expressar sua criatividade ou presentear alguém especial.
-                <br><br><br>
-                Atendemos todo o Brasil com entrega rápida e confiável. Crie algo único com a gente!</p>
+    </header>
 
+    <!-- Sección principal -->
+    <section class="hero">
+        <div class="container">
+            <h2>Crie sua identidade única!</h2>
+            <p>Oferecemos personalização de alta qualidade para camisas, camisetas, uniformes e muito mais.</p>
+            <a href="#contato" class="cta-btn">Faça seu pedido agora</a>
         </div>
-        <img id="background-image" src="/img/background-image.png" alt="" >
-      </div>
-      <div class="clothes-photos">
-        <div class="center-photos"><img src="/img/tazas.jpg" class="tazas-zainab"></div>
-        <div class="center-photos"><img src="/img/presente-nam.jpg" class="tazas-zainab"></div>
-        <div class="center-photos"><img src="/img/par.jpg" class="tazas-zainab"></div>
-      </div>
-
-      <div class="camisas">
-        <div class="camisas-container"> <img src="/img/shirt-break.jpg" alt="" id="shirt-break"></div>
-        <div class="camisas-container">
-          <div class="camisas-derecha"><img src="img/ate-o-mundo-acabou.jpg" alt="" id="ate-o-mundo-acabou"> </div>
-          <div class="camisas-derecha"></div>
-        </div>
-      </div>
-
-      <section>
-        
-        <h2>Perguntas frecuentes</h2>
-        <details>
-        <summary>Quanto demorn las entregas nacionales</summary>
-        <p>Escribir aqui cuanto demoran las entregas nacionales</p>
-        </details>
-        <details>
-            <summary>Quais itens posso personalizar</summary>
-            <p>Escribir aqui cuales son los itens que podemos personalizar</p>
-        </details>
-    
     </section>
 
-    
+    <!-- Sobre nós -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2>Sobre nós</h2>
+            <p>A <strong>Emi Personalizados</strong> é uma empresa dedicada a transformar suas ideias em realidade. Trabalhamos com os melhores materiais e técnicas de personalização para garantir produtos exclusivos e duradouros.</p>
+            <p>Atendemos em todo o Brasil com entrega rápida e segura.</p>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2>Nossos serviços</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Camisetas Personalizadas</h3>
+                    <p>Personalize camisetas com estampas, logos ou frases exclusivas.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Uniformes Empresariais</h3>
+                    <p>Criamos uniformes profissionais para empresas de todos os tamanhos.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Materiais Promocionais</h3>
+                    <p>Personalize bonés, sacolas, canecas e outros materiais promocionais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2>Entre em contato</h2>
+            <p>Preencha o formulário abaixo ou entre em contato diretamente:</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar mensagem</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>E-mail:</strong> contato@emipersonalizados.com.br</p>
+                <p><strong>WhatsApp:</strong> +55 11 99999-9999</p>
+                <p><strong>Entregamos para todo o Brasil!</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Emi Personalizados. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
